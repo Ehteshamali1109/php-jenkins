@@ -1,0 +1,39 @@
+# Ignore Composer's vendor directory
+/vendor/
+
+# PHPUnit result caches
+.phpunit.result.cache
+
+# PHPStorm and other IDEs
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Log files
+*.log
+
+# Build files
+/build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# PHPUnit coverage results
+coverage/
+*.cov
+
+# Cache and config
+/.env
+/.env.*
+.cache/
+*.cache
